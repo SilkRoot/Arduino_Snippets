@@ -1,3 +1,3 @@
-# Small Repo for Arduino Snuppets
+# Small Repo for Arduino Snippets
 
 collection of Arduino Code
