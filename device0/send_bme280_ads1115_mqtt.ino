@@ -118,4 +118,7 @@ void loop() {
     client.publish("/device0/adc3", String(adc3).c_str());
   
     delay(500);
+    
+    // Deep Sleep for 60 seconds
+    ESP.deepSleep(60e6); 
 }

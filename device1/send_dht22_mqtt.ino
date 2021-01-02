@@ -84,4 +84,7 @@ void loop() {
     client.publish("/device1/temperature", String(temperature).c_str());
     client.publish("/device1/humidity", String(humidity).c_str());
     delay(500);
+
+    // Deep Sleep for 60 seconds
+    ESP.deepSleep(60e6); 
 }
